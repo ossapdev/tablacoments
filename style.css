@@ -1,0 +1,41 @@
+* {
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+.tabla-coment {
+
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    padding: 3px;
+
+    background-color: rgba(34, 34, 34, 0.877);
+    color: white;
+   
+
+    display: grid;
+
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.num-comnt {
+
+  border: 0.1px solid rgba(78, 78, 78, 0.849);
+  height: 20px;
+  width: 50px; 
+  margin: auto;
+  
+}
+
+.link-inst a {
+
+  color: rgba(133, 132, 132, 0.815);
+}
